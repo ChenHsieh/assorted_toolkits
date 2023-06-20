@@ -1,6 +1,5 @@
 import streamlit as st
-import time
-import numpy as np
+import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Query 717 genes from Phytozome without bamboozlement", page_icon="📈")
 
