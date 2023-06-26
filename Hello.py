@@ -5,9 +5,9 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("# Welcome to Streamlit! 👋")
+st.write("# Chen's assorted toolkits")
 
-st.sidebar.success("Select a demo above.")
+st.sidebar.success("choose a tool from the sidebar")
 
 st.markdown(
     """
