@@ -1,5 +1,5 @@
 import streamlit as st
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import pandas as pd
 import re
 import os
@@ -71,12 +71,7 @@ if validate(str(amino_acid_sequence), 'protein'):
     
   
     st.markdown("## Plot")
-    fig = plt.figure(figsize=(8*figure_size, 6*figure_size))
-    plt.plot(pI_list, 'go--')
-    plt.xlabel("amino acid position")
-    st.pyplot(fig)
-
-
+    st.line_chart(pI_list)
   
 else:
     print("the input seems not an amino acid sequence")

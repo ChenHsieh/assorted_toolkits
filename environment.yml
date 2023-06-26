@@ -1,9 +1,0 @@
-name: streamlit
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - pip
-  - matplotlib
-  - plotly
-  - seaborn
